@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+padding: 20px;
+background-color: blue;
+}
+
+#conteúdo{
+height: 200px;
+width: 400px;
+background-color: brown;
+}
