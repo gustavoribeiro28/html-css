@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 #container{
 display: flex;
 justify-content: center;
@@ -15,4 +23,23 @@ background-color: blue;
 height: 200px;
 width: 400px;
 background-color: brown;
+}
+
+#caixaprincipal{
+ position: relative;
+ height: 500px;
+ padding: 10px;
+ background-color: blue;
+}
+
+#caixamenor{
+position: absolute;
+height: 200px;
+width: 400px;
+background-color: brown;
+
+left: 50%;
+top: 50%;
+
+transform: translate(-50%, -50%);
 }
