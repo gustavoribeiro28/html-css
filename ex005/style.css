@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio{
+    background-image: url(imagem.01.jpg);
+    width: 100%;
+    min-width: 400px;
+    height: 500px;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   display: flex;
+   
+}
+
+ .inicio h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: clamp(50px, 10vw, 200px);
+    color: #ffff;
+    margin-top: 25%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#container01{
+    display: flex;
+    background-image: url(imagem02.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
