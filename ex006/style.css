@@ -32,9 +32,41 @@
         padding-bottom: 10vh;
     }
     .color{
+        color: aliceblue;
         background-color: rgb(190, 190, 190);
         padding-bottom: 5px;
         padding-top: 5px;
         padding-top: 10vh;
         padding-bottom: 10vh;
+    }
+
+    #img01{
+       background-image: url(imagens/background001.jpg);
+       background-repeat: no-repeat;
+       background-position: right center;
+       background-size: cover;
+    }
+
+        #img02{
+            background-image: url(imagens/background002.jpg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: cover;
+            color: rgb(0, 0, 0);
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+    }
+
+    #img03{
+        background-image: url(imagens/background003.jpg);
+        background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: cover;
+            color:  aliceblue;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-top: 10vh;
+            padding-bottom: 10vh;
     }
