@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.184);
+    height: 80px;
+}
+
+h1{
+    font-size: 50px;
+    color: aliceblue;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.esquerda{
+    display: flex;
+    gap: 20px;
+}
+
+.direita{
+    display: flex;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+main{
+    background-image: url("imagens/Desktop\ -\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100vh;
+   display: flex;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    display: flex;
+    align-items: flex-end;
+}
+
+section{
+    height: 400px;
+    background-color: black;
+}
+
