@@ -1,48 +1,74 @@
 *{
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
 
-button{
+body{
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 34, 112);
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 90vw;
+    height: 600px;
     font-size: 20px;
-    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.botão:hover{
-    color: #ae1f23;
-    background-color: #669bbc;
-    border-radius: 15px;
-    font-size: 40px;
+th, td{
+    text-align: center;
+    background-color: white;
 }
 
-.botão02:active{
-    background-color: #669bbc;
-    color: aliceblue;
-    border: none;
-    font-size: 30px;
+.borda02{
+    border-left: 1px solid gray;
 }
 
-.botão04:empty{
-    background-color: #669bbc;
+span{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px;
 }
 
-.botão05 p:first-of-type{
-    font-weight: bold;
-    color: #669bbc;
-    font-size: 20px;
+.aluno{
+    background-color: rgb(241, 197, 127);
+    color: rgb(75, 39, 12);
 }
 
-.botão06 p:last-of-type{
-    font-weight: bold;
-    color: #669bbc;
-    font-size: 20px;
+.turma{
+    background-color: rgb(255, 241, 217);
+    color: rgb(95, 65, 14);
 }
 
-.focus:focus{
-    background-color: #ae1f23;
-    color: #669bbc;
-    font-size: 20px;
+.boa{
+    background-color: rgb(190, 250, 178);
+    color: rgb(38, 74, 1);
 }
 
-.botão07:not(.fora){
-background-color: #669bbc;
+.cinza{
+    background-color: rgb(183, 183, 183);
+    color: white;
+}
+
+.borda{
+    border-left: 1px solid gray;
+}
+
+thead th{
+    background-color: rgb(0, 166, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
