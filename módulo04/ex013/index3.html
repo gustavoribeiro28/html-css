@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animações 002</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .fundo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkgray;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .bloco{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            border-radius: 50px;
+            width: 800px;
+            height: 700px;
+        }
+
+        .container{
+            display: flex;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 20px;
+
+            transition: 1s ease 1ms;
+        }
+
+        .container:hover{
+            width: 120px;
+            height: 120px;
+        }
+
+        .um{
+            background-image: url(fundo01.png);
+            background-repeat: no-repeat;
+            background-size: 80px;
+            background-position: center;
+        }
+
+        .dois{
+            background-image: url(fundo02.webp);
+            background-repeat: no-repeat;
+            background-size: 100px;
+            background-position: center;
+        }
+
+        .tres{
+            background-image: url(fundo03.png);
+            background-repeat: no-repeat;
+            background-size: 80px;
+            background-position: center;
+        }
+
+        .quatro{
+            background-image: url(fundo04.webp);
+            background-repeat: no-repeat;
+            background-size: 200px;
+            background-position: center;
+        }
+
+        .cinco{
+            background-image: url(fundo05.webp);
+            background-repeat: no-repeat;
+            background-size: 90px;
+            background-position: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        <div class="bloco">
+            <div class="container um"></div>
+            <div class="container dois"></div>
+            <div class="container tres"></div>
+            <div class="container quatro"></div>
+            <div class="container cinco"></div>
+        </div>
+    </div>
+</body>
+</html>
