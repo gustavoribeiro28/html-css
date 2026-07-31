@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando animações</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .fundo{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(155, 155, 155);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(214, 214, 214);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button{
+            font-weight: bolder;
+            font-size: 20px;
+            width: 200px;
+            height: 50px;
+            border-radius: 90px;
+            background: linear-gradient( #3c0561, #960df2);
+            color: white;
+            border: none;
+            box-shadow: 0px 0px 40px 10px #ab3df5;
+            cursor: pointer;
+            transition:  2s ease 3ms;
+        }
+
+        button:hover{
+            width: 250px;
+            height: 70px;
+            background: linear-gradient(#960df2, #3c0561);
+            box-shadow: 0px 0px 50px 20px #ab3df5;
+            border: 1px solid white;
+            font-size: 30px;
+            transform: rotate(1turn);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        <div class="container">
+        <button>menu</button>
+        </div>
+    </div>
+
+</body>
+</html>
