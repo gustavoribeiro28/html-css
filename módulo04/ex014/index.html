@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+    <style>
+
+       body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+
+       form{
+        width: 350px;
+        height: 450px;
+        background: linear-gradient(to top, #00033d, #0033ff, #977dff);
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+
+       input.form{
+        background-color: #0033ff;
+        border-radius: 10px;
+        border: none;
+        border-bottom: 2px solid white;
+       }
+
+       input.button{
+        border-radius: 20px;
+        font-size: 20px;
+        border: none;
+        width: 150px;
+        height: 30px;
+        background-color: white;
+        color: black;
+       }
+
+       label.nome{
+        color: white;
+       }
+
+       h2{
+        font-size: 40px;
+        color: white;
+       }
+    </style>
+</head>
+<body>
+    <h1>meu primeiro formulário</h1>
+    <form>
+        <h2>login</h2>
+        <p>
+            <label for="nome" class="nome">nome:</label> <br>
+            <input type="text" name="nome" id="nome" class="form">
+        </p>
+        <p >
+            <label for="sobrenome" class="nome">sobrenome:</label> <br>
+            <input type="text" name="sobrenome" id="sobrenome" class="form"> 
+        </p>
+        <p><input type="submit" value="enviar" class="button"></p>
+    </form>
+</body>
+</html>

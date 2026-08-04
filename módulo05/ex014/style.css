@@ -1,0 +1,12 @@
+div.container{
+    display: flex;
+    background-color: gray;
+    
+}
+
+div.items{
+    flex: auto;
+    background-color: rgb(255, 248, 34);
+    text-align: center;
+    border: 1px solid black;
+}
