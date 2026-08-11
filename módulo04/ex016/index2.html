@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <label for="estado">estados</label>
+    <select name="estado" id="estado">
+        <optgroup label="sudeste">
+        <option value="">são paulo</option>
+        <option value="">rio de janeiro</option>
+        <option value="">minas gerais</option>
+        </optgroup>
+    </select>
+    <p>
+        <label for="profs">faculdade</label>
+        <input type="text" name="profs" id="profs" list="áreas">
+        <datalist id="áreas">
+            <option value="ADM">administração</option>
+            <option value="TI">programação</option>
+            <option value="MED">medicina</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="ims">comentários</label> <br>
+        <textarea name="ims" id="ims" cols="30" rows="20"></textarea>
+    </p>
+</body>
+</html>
