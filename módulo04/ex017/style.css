@@ -1,0 +1,21 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/* estilos para impressão */
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: 'esse artigo foi impresso atráves do site www.cursoGG.com';
+}
