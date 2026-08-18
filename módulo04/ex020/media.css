@@ -1,0 +1,22 @@
+@media screen and (min-width: 992px) {
+    .material-symbols-outlined{
+        display: none;
+    }
+
+    #item{
+        display: block;
+    }
+
+    #item ul{
+        display: flex;
+        justify-content: space-around;  
+    }
+
+    li{
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+        border-top: none;
+        background-color: rgb(44, 44, 44);
+    }
+}

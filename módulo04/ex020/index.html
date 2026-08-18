@@ -6,8 +6,9 @@
     <title>fazendo menu hamburguer</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>dreamlike</h1>
         <span class="material-symbols-outlined" onclick="clickMenu()"> menu</span>
@@ -26,6 +27,16 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus necessitatibus sequi dicta consectetur temporibus pariatur vero commodi et ab deserunt corporis, magnam non officia accusantium possimus veritatis fugit, laboriosam eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quo placeat dolorum corporis culpa animi, porro minima dolorem rerum ratione eligendi, fugiat, reiciendis recusandae mollitia ipsa iste amet earum commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae molestias voluptatem ex error minus asperiores perferendis a. Cupiditate distinctio eius sit quae veritatis facilis natus ullam sed delectus iusto?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur! Saepe laboriosam odit dolor soluta corrupti? Doloremque, quaerat pariatur, repellendus odit temporibus nesciunt adipisci dolorum corporis, sequi porro optio accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo iusto debitis libero ullam harum. Dignissimos corrupti fugit, animi esse libero aut officia architecto tenetur rem accusamus! Eum, molestias fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi soluta illo est, assumenda aut officiis unde dignissimos veniam sed! Eius sit beatae laborum repellat distinctio, minima itaque praesentium consequuntur id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, molestiae sequi itaque minima expedita, voluptatum totam ab maxime quia velit dolores esse nesciunt dolorum officiis laboriosam aliquam! Cum, impedit quod.</p>
     </main>
     <script>
+
+
+        function mudouTamanho() {
+            if(window.innerWidth >= 992) {
+                item.style.display = 'block'
+            } else {
+                item.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if(item.style.display == "block") {
                 item.style.display = 'none'
