@@ -18,6 +18,13 @@
         float: right;
         width: 70%;
     }
+
+    form > div.campo > input{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -40,4 +47,12 @@
         float: right;
         width: 50%;
     }
+
+    form > div.campo > input{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    }
+    
 }
