@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>efeito vidro</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            width: 100%;
+            min-height: 100vh;
+            background-image: url(imagem/imagem-deitada.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container{
+           width: 100%;
+           max-width: 500px;
+           background-color: transparent;
+           padding: 30px;
+           border: 1px solid white;
+           border-radius: 10px;
+
+           backdrop-filter: blur(10px);
+           overflow: hidden;
+        }
+
+        .text{
+            color: rgb(41, 89, 41);
+            position: relative;
+            top: 300px;
+            transition: top 1s;
+        }
+
+        .container:hover .text{
+            top: 0px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+        <h1>Bom dia!!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ullam tempore fugiat consequatur sed est, non velit? Inventore, libero nihil impedit ex aperiam, cupiditate, magnam sit aliquam voluptas modi dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto molestias dolores sit maiores accusantium sequi nihil deserunt veritatis similique blanditiis. Dolorem dolore rem cum perspiciatis temporibus impedit quo vitae sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima in blanditiis laboriosam distinctio voluptas. Rerum perferendis quaerat impedit eius iure, illum illo, iusto reiciendis facilis explicabo porro temporibus, aperiam animi?</p>
+        </div>
+    </div>
+</body>
+</html>
