@@ -1,12 +1,12 @@
-div.container{
-    display: flex;
+.container{
     background-color: gray;
-    
+    display: flex;
+    flex-flow: row wrap;
 }
 
-div.items{
-    flex: auto;
-    background-color: rgb(255, 248, 34);
-    text-align: center;
+.items{
+    background-color: rgb(87, 172, 247);
     border: 1px solid black;
+    text-align: center;
+    flex-basis: 150px;
 }
