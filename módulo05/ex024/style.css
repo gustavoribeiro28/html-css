@@ -8,5 +8,6 @@
     background-color: rgb(87, 172, 247);
     border: 1px solid black;
     text-align: center;
-    flex-basis: 150px;
+    flex-basis: 300px;
+    flex-grow: 1;
 }
